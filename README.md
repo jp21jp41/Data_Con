@@ -18,6 +18,7 @@ To make the edits:
 - Go to "Visual Basic" under "Developer" in Excel.
 - Click "This Workbook" under the "Project" window of Visual Basic.
 - File -> Import File -> the .bas file (the file with "For_MY_and_Date" is only for the excel files where the temporal structure is a date, i.e., "output_MY" or "output_date"). The other .bas file should be used with "output_year" and "output_month".
+
 The edits are of every sheet, per excel file.
 
 Note that the project only has one developer, so it takes time to make improvements. That also means the limitations are bound to said one developer.
