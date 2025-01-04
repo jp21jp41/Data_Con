@@ -9,6 +9,8 @@ The main statistics throughout: Averages, Sums, Variances, and Standard Deviatio
 # Instructions
 
 On line 19 of the Lottery_Data_Conversion.py file, replace the directory (which is, "Lottery_Mega_Millions_Winning_Numbers__Beginning_2002.csv") with
-your directory. Then, you may simply run the file to get all of the data.
+your directory. 
+
+Then, you may simply run the file to get all of the data.
 
 Note that the project only has one developer, so it takes time to make improvements. That also means the limitations are bound to said one developer.
