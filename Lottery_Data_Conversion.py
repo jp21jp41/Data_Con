@@ -15,7 +15,7 @@ from datetime import datetime
 # Create a folder to put files in
 os.makedirs('folder', exist_ok = True)
 
-# Read the initial lottery data csv
+# Read the initial lottery data csv (note: the directory should be unique to your device)
 lottery_data = pnd.read_csv('Lottery_Mega_Millions_Winning_Numbers__Beginning_2002.csv')
 
 
