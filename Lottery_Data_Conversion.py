@@ -16,7 +16,7 @@ from datetime import datetime
 os.makedirs('folder', exist_ok = True)
 
 # Read the initial lottery data csv
-lottery_data = pnd.read_csv('C:/Users/justi/OneDrive/Documents/All_Backups_etc/Lottery_Mega_Millions_Winning_Numbers__Beginning_2002.csv')
+lottery_data = pnd.read_csv('Lottery_Mega_Millions_Winning_Numbers__Beginning_2002.csv')
 
 
 
