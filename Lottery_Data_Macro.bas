@@ -1,11 +1,7 @@
 Attribute VB_Name = "Module1"
 Sub ltry_dta_macro()
 Attribute ltry_dta_macro.VB_ProcData.VB_Invoke_Func = " \n14"
-'
 ' ltry_dta_macro Macro
-'
-
-'
     Sheets("Initial Data").Select
     Columns("B:B").EntireColumn.AutoFit
     Columns("C:H").ColumnWidth = 13
