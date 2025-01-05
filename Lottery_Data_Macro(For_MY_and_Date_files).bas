@@ -1,11 +1,7 @@
 Attribute VB_Name = "Module1"
 Sub L_Dt_Macro()
 Attribute L_Dt_Macro.VB_ProcData.VB_Invoke_Func = " \n14"
-'
 ' Lottery Data Macro (Date-Based)
-'
-
-'
     Sheets("Initial Data").Select
     Range("A1:I1").Select
     With Selection.Interior
