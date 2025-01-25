@@ -253,7 +253,6 @@ time_dictionary = {0 : [year, 50, 1, 2],
                    3 : [date, 94608000, 86400, 4]}
 
 # Store the Sheets variables
-time_variables = [year, month, month_year, date]
 model_types = ["poly", "sinusoidal"]
 
 # Iteration to run various Sheets functions
