@@ -12,8 +12,7 @@ from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg)
 from matplotlib.figure import Figure
 
 
-# NOTE: inputter is a python module that I have personally designed.
-# The module can be found on GitHub (automatic import later)
+# Module "inputter" can be found on GitHub
 import inputter
 
 # figureProfile class works with graphical user interfaces that allow plots
