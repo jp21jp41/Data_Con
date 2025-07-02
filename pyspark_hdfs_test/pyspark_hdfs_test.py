@@ -1,12 +1,15 @@
 #pyspark_hdfs_test
-from datetime import datetime, date
-from pyspark.sql import Row
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
 from pyspark.sql.functions import explode
 from pyspark.sql.functions import split
 import hdfs
 import os
+
+"""
+NOTE: PYSPARK PATHS ARE ONLY NECESSARY IF YOUR DEFAULT PATH DOES NOT HAVE THE NECESSARY INSTALLATIONS
+Otherwise, please note difference between your directories and the ones listed.
+"""
 
 # Pyspark Paths
 os.environ['PYSPARK_PYTHON'] = "~/Python/Python311/python.exe"
@@ -92,7 +95,6 @@ dfp = df.toPandas()
 print("Transpose:")
 dfp = dfp.T
 print(dfp)
-
 
 
 # Transpose Schema
