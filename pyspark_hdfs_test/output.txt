@@ -1,0 +1,60 @@
+Client:
+<InsecureClient(url='http://localhost:9870')>
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
++------+----------+------+-----+
+|People|      Item| Color|Price|
++------+----------+------+-----+
+| Steve|       Hat|  Blue|16.99|
+|   Bob|     Radio|Purple|35.99|
+|Louise|Lightbulbs| White|20.00|
++------+----------+------+-----+
+
+
+***Inserting new data***
+
++------+----------+------+-----+
+|People|      Item| Color|Price|
++------+----------+------+-----+
+|Louise|Lightbulbs| White|20.00|
+| Daisy|  Notebook| Green| 2.50|
+|   Bob|     Radio|Purple|35.99|
+| Steve|       Hat|  Blue|16.99|
++------+----------+------+-----+
+
++------+----------+------+-----+
+|People|      Item| Color|Price|
++------+----------+------+-----+
+| Steve|       Hat|  Blue|16.99|
+|   Bob|     Radio|Purple|35.99|
+|Louise|Lightbulbs| White|20.00|
++------+----------+------+-----+
+
+Transpose:
+            0       1           2
+People  Steve     Bob      Louise
+Item      Hat   Radio  Lightbulbs
+Color    Blue  Purple       White
+Price   16.99   35.99       20.00
++-----+------+----------+
+|Steve|   Bob|    Louise|
++-----+------+----------+
+|  Hat| Radio|Lightbulbs|
+| Blue|Purple|     White|
+|16.99| 35.99|     20.00|
++-----+------+----------+
+
++---+
+| id|
++---+
+|  0|
+|  1|
+|  2|
+|  3|
+|  4|
+|  5|
+|  6|
+|  7|
+|  8|
+|  9|
++---+
