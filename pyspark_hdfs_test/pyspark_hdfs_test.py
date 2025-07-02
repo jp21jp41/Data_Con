@@ -7,14 +7,10 @@ from pyspark.sql.functions import explode
 from pyspark.sql.functions import split
 import hdfs
 import os
-import socket
-import sys
-import glob
-import requests
 
 # Pyspark Paths
-os.environ['PYSPARK_PYTHON'] = "C:/Users/justi/AppData/Local/Programs/Python/Python311/python.exe"
-os.environ['PYSPARK_DRIVER_PYTHON'] = "C:/Users/justi/AppData/Local/Programs/Python/Python311/python.exe"
+os.environ['PYSPARK_PYTHON'] = "~/Python/Python311/python.exe"
+os.environ['PYSPARK_DRIVER_PYTHON'] = "~/Python/Python311/python.exe"
 
 # Spark Home Path
 os.environ['SPARK_HOME'] = "C:/spark/spark-3.5.5-bin-hadoop3"
@@ -26,13 +22,13 @@ os.environ['HADOOP_HOME'] = 'C:/hadoop'
 os.environ['JAVA_HOME'] = "C:\Program Files\Java\jdk-17"
 
 #Basic Hadoop Client Test
-client = hdfs.InsecureClient('http://localhost:9870', user='justi')
+client = hdfs.InsecureClient('http://localhost:9870', user='~')
 print("Client:")
 print(client)
 
 
 
-table_path = "C:/Users/justi/rustcomp/src/spark-warehouse/testpysparktable"
+table_path = "<userdirectory>/spark-warehouse/testpysparktable"
 
 # HDFS Deletion Dependent on whether the status of the 
 table_path_status = client.status(table_path, strict=False)
