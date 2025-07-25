@@ -33,7 +33,7 @@ print(client)
 
 table_path = "<userdirectory>/spark-warehouse/testpysparktable"
 
-# HDFS Deletion Dependent on whether the status of the 
+# HDFS Deletion Dependent on whether the status of the client is successful
 table_path_status = client.status(table_path, strict=False)
 if table_path_status != None:
     client.delete(table_path)
