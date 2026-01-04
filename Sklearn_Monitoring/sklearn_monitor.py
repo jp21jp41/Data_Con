@@ -7,7 +7,7 @@ from math import isnan
 import numpy as np
 
 # Import dataset
-by_monitor_data = pnd.read_csv("C:\\Users\\justi\\Downloads\\annual_conc_by_monitor_2024\\annual_conc_by_monitor_2024.csv")
+by_monitor_data = pnd.read_csv("\\justi\\Downloads\\annual_conc_by_monitor_2024\\annual_conc_by_monitor_2024.csv")
 
 # New dataset dictionary
 by_monitor_data2 = {}
